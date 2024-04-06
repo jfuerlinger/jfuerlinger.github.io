@@ -8,10 +8,11 @@ I describe the individual steps to reach my goal and also try to document the pr
 
 - [Use Docker context command to control a remote docker daemon](./docker/docker-context.md)
 - [Use of scripted docker-compose.yml files disaster safety](./docker/docker-disaster-safety.md)
+- [Add `non root` user on docker host and enable ssh access](./docker/add-nonroot-user.md)
 
 # Ideas for the future
 
-* Add `Network` user on docker host
+* Use of scripted docker-compose.yml files to be able to restore the entire Docker container in the event of a disaster
 * Automate backup and restore
 * Use watchtower to auto update the docker containers
 * Use pihole as a DNS server and also as ad blocker
