@@ -10,7 +10,6 @@ I describe the individual steps to reach my goal and also try to document the pr
 
 # Ideas for the future
 
-1. Use Docker context command to control a remote docker daemon
 2. Use of scripted docker-compose.yml files to be able to restore the entire Docker container in the event of a disaster
 3. Automate backup and restore
 4. Use watchtower to auto update the docker containers
