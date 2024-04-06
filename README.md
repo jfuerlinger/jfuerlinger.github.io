@@ -10,10 +10,11 @@ I describe the individual steps to reach my goal and also try to document the pr
 
 # Ideas for the future
 
-2. Use of scripted docker-compose.yml files to be able to restore the entire Docker container in the event of a disaster
-3. Automate backup and restore
-4. Use watchtower to auto update the docker containers
-5. Use pihole as a DNS server and also as ad blocker
-6. Use traefik as a reverse proxy
-7. Use authentik for user authentication
-8. Host a bitwarden instance
+* Add `Network` user on docker host
+* Use of scripted docker-compose.yml files to be able to restore the entire Docker container in the event of a disaster
+* Automate backup and restore
+* Use watchtower to auto update the docker containers
+* Use pihole as a DNS server and also as ad blocker
+* Use traefik as a reverse proxy
+* Use authentik for user authentication
+* Host a bitwarden instance
