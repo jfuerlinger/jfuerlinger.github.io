@@ -4,5 +4,5 @@ This blog describes my (sometimes very rocky) journey on the way to implementing
 
 I describe the individual steps to reach my goal and also try to document the problems I encountered along the way, including the solution, as best I can. This serves as a reference for me, but also for anyone working on similar projects.
 
-Translated with DeepL.com (free version)
+
 
