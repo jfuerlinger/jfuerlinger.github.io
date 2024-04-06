@@ -1,5 +1,7 @@
 # Use Docker context command to control a remote docker daemon
 
+[Back](../README.md)
+
 My initial situation is my work computer with Docker Desktop installed and my Docker VM hosted on a Proxmox.
 
 To be able to conveniently control the Proxmox-hosted Docker daemon from the work computer, it makes sense to create another Docker context.
@@ -76,8 +78,8 @@ docker context use default
 
 🚀🚀🚀 **Mission accomplished** 🚀🚀🚀
 
-
-
 ## References
 
 - [Configure remote access for Docker daemon](https://docs.docker.com/config/daemon/remote-access/)
+  
+[Back](../README.md)
