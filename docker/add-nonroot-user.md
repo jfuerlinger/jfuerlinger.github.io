@@ -89,7 +89,6 @@ These are the necessary steps:
     ssh -i <path to your private ssh key> network@docker.local
     ```
 
-
 ## References
 
 - [How to Add User to Sudoers or Sudo Group on Ubuntu](https://phoenixnap.com/kb/how-to-create-sudo-user-on-ubuntu)
