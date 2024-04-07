@@ -12,6 +12,7 @@ I describe the individual steps to reach my goal and also try to document the pr
 
 ## Ideas for the future
 
+- Disable sudo password for specific user (https://askubuntu.com/questions/147241/execute-sudo-without-password)
 - Share the hosts ssh key with the dev container
   - ssh-add -l
   - https://code.visualstudio.com/remote/advancedcontainers/sharing-git-credentials
