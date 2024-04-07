@@ -31,7 +31,7 @@ These are the necessary steps:
 2. Add the newly created user to the `sudo` group:
 
    ```bash
-   usermod -aG sudo network
+   usermod -aG sudo docker network
    ```
 
 3. Verify the group memberships of the `network` user:
@@ -88,6 +88,8 @@ These are the necessary steps:
     ```powershell
     ssh -i <path to your private ssh key> network@docker.local
     ```
+
+🚀🚀🚀 **Mission accomplished** 🚀🚀🚀
 
 ## References
 
