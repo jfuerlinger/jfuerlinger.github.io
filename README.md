@@ -12,6 +12,16 @@ I describe the individual steps to reach my goal and also try to document the pr
 
 ## Ideas for the future
 
+- Share the hosts ssh key with the dev container
+  - ssh-add -l
+  - https://code.visualstudio.com/remote/advancedcontainers/sharing-git-credentials
+  
+    ```bash
+        # Make sure you're running as an Administrator
+        Set-Service ssh-agent -StartupType Automatic
+        Start-Service ssh-agent
+        Get-Service ssh-agent
+    ```
 - Use of scripted docker-compose.yml files to be able to restore the entire Docker container in the event of a disaster
 - Automate backup and restore
 - Use watchtower to auto update the docker containers
