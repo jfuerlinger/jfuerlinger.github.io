@@ -1,5 +1,7 @@
 # SSH TCP Forwarding to access services from the remote servers network
 
+[Back](../README.md)
+
 Recently I had the problem that I set up my Homelab again and didn't do it from home. In other words, I was in an external network and only had the option of opening an ssh connection to my Proxmox host.
 
 But now I had to access the web admin interface of my internal router to configure the reverse proxy.
@@ -26,3 +28,5 @@ ssh -L 3434:192.168.0.1:80 network@jfuerlinger.ddns.net
 ```
 
 🚀🚀🚀 **Mission accomplished** 🚀🚀🚀
+
+[Back](../README.md)
