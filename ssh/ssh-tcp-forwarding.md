@@ -13,10 +13,10 @@ To do this, the `AllowTcpForwarding` option must be activated in the `/etc/ssh/s
 AllowTcpForwarding yes
 ```
 
-Afterwards you have to restart the sshd service to reload the changed config:
+Afterwards you have to restart the ssh service to reload the changed config:
 
 ```bash
-sudo systemctl restart sshd.service
+sudo systemctl restart ssh.service
 ```
 
 The on the local machine I was able to forward the remote networks servers port `192.168.0.1:80` to the local port `3434`:
