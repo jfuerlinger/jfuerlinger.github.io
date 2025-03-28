@@ -1,0 +1,3 @@
+# USB über TCP
+
+Da ich die nächsten Tage bei einem Seminar bin und meinen Raspberry PI 4 auf welchem alle meine Docker Container (inkl. Homeassistent) laufen nicht mitnehmen möchte, musste ich eine Lösung finden, sodass ich meinen Zigbee Sonoff USB 3.0 Plus Dongle am Notebook per USB anstecken kann und diesen dann per TCP auf den Rasperry PI 4 durchsleusen kann. Das Ziel ist, dass dieser dort wie ein lokales USB Gerät erkannt wird. 
