@@ -21,7 +21,7 @@ Afterwards you have to restart the ssh service to reload the changed config:
 sudo systemctl restart ssh.service
 ```
 
-The on the local machine I was able to forward the remote networks servers port `192.168.0.1:80` to the local port `3434`:
+Then on the local machine I was able to forward the remote networks servers port `192.168.0.1:80` to the local port `3434`:
 
 ```bash
 ssh -L 3434:192.168.0.1:80 network@jfuerlinger.ddns.net
